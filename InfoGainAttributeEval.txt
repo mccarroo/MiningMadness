@@ -1,0 +1,82 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     TDR.weka
+Instances:    928
+Attributes:   30
+              Season
+              team
+              pts.RS
+              pts.opp.RS
+              pt.diff.RS
+              fgm.RS
+              fga.RS
+              fg.per.RS
+              fgm2.RS
+              fga2.RS
+              fg2.per.RS
+              fgm3.RS
+              fga3.RS
+              fg3.per.RS
+              ftm.RS
+              fta.RS
+              ft.per.RS
+              or.RS
+              dr.RS
+              tr.RS
+              ast.RS
+              to.RS
+              stl.RS
+              blk.RS
+              pf.RS
+              wperc.RS
+              lperc.RS
+              region.TS
+              seed.num.TS
+              champ.TS
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 30 champ.TS):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.03147    5 pt.diff.RS
+ 0.02989   29 seed.num.TS
+ 0.02323   27 lperc.RS
+ 0.02323   26 wperc.RS
+ 0.01496    6 fgm.RS
+ 0.00416   28 region.TS
+ 0         11 fg2.per.RS
+ 0          3 pts.RS
+ 0          9 fgm2.RS
+ 0         10 fga2.RS
+ 0          8 fg.per.RS
+ 0          4 pts.opp.RS
+ 0          2 team
+ 0         13 fga3.RS
+ 0          7 fga.RS
+ 0         12 fgm3.RS
+ 0         15 ftm.RS
+ 0         14 fg3.per.RS
+ 0         16 fta.RS
+ 0         23 stl.RS
+ 0         24 blk.RS
+ 0         25 pf.RS
+ 0         22 to.RS
+ 0         21 ast.RS
+ 0         20 tr.RS
+ 0         17 ft.per.RS
+ 0         18 or.RS
+ 0         19 dr.RS
+ 0          1 Season
+
+Selected attributes: 5,29,27,26,6,28,11,3,9,10,8,4,2,13,7,12,15,14,16,23,24,25,22,21,20,17,18,19,1 : 29
+

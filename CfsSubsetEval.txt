@@ -1,0 +1,61 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     TDR.weka
+Instances:    928
+Attributes:   30
+              Season
+              team
+              pts.RS
+              pts.opp.RS
+              pt.diff.RS
+              fgm.RS
+              fga.RS
+              fg.per.RS
+              fgm2.RS
+              fga2.RS
+              fg2.per.RS
+              fgm3.RS
+              fga3.RS
+              fg3.per.RS
+              ftm.RS
+              fta.RS
+              ft.per.RS
+              or.RS
+              dr.RS
+              tr.RS
+              ast.RS
+              to.RS
+              stl.RS
+              blk.RS
+              pf.RS
+              wperc.RS
+              lperc.RS
+              region.TS
+              seed.num.TS
+              champ.TS
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 213
+	Merit of best subset found:    0.143
+
+Attribute Subset Evaluator (supervised, Class (nominal): 30 champ.TS):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 5,6,28,29 : 4
+                     pt.diff.RS
+                     fgm.RS
+                     region.TS
+                     seed.num.TS
+

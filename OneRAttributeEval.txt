@@ -1,0 +1,85 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.OneRAttributeEval -S 1 -F 10 -B 6
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     TDR.weka
+Instances:    928
+Attributes:   30
+              Season
+              team
+              pts.RS
+              pts.opp.RS
+              pt.diff.RS
+              fgm.RS
+              fga.RS
+              fg.per.RS
+              fgm2.RS
+              fga2.RS
+              fg2.per.RS
+              fgm3.RS
+              fga3.RS
+              fg3.per.RS
+              ftm.RS
+              fta.RS
+              ft.per.RS
+              or.RS
+              dr.RS
+              tr.RS
+              ast.RS
+              to.RS
+              stl.RS
+              blk.RS
+              pf.RS
+              wperc.RS
+              lperc.RS
+              region.TS
+              seed.num.TS
+              champ.TS
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 30 champ.TS):
+	OneR feature evaluator.
+
+	Using 10 fold cross validation for evaluating attributes.
+	Minimum bucket size for OneR: 6
+
+Ranked attributes:
+98.491   29 seed.num.TS
+98.491   10 fga2.RS
+98.491   12 fgm3.RS
+98.491   13 fga3.RS
+98.491   14 fg3.per.RS
+98.491   11 fg2.per.RS
+98.491    9 fgm2.RS
+98.491   16 fta.RS
+98.491    6 fgm.RS
+98.491    2 team
+98.491    3 pts.RS
+98.491    4 pts.opp.RS
+98.491   28 region.TS
+98.491   15 ftm.RS
+98.491   17 ft.per.RS
+98.491   23 stl.RS
+98.491   25 pf.RS
+98.491   26 wperc.RS
+98.491   27 lperc.RS
+98.491   18 or.RS
+98.491    1 Season
+98.491   22 to.RS
+98.491   20 tr.RS
+98.491   19 dr.RS
+98.491   21 ast.RS
+98.384    7 fga.RS
+98.384    8 fg.per.RS
+98.276    5 pt.diff.RS
+98.276   24 blk.RS
+
+Selected attributes: 29,10,12,13,14,11,9,16,6,2,3,4,28,15,17,23,25,26,27,18,1,22,20,19,21,7,8,5,24 : 29
+
